@@ -1,8 +1,6 @@
 # ants
 A custom pettingzoo environment that simulates a very simple ant colony.
 
-This environment is a basic ant colony simulation. There are by default 10 ants.
-
 **The Board**
 
 The environment is a basic grid world with each cell having 4 possible options:
