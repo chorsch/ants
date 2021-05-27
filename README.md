@@ -4,6 +4,7 @@ A custom pettingzoo environment that simulates a very simple ant colony.
 This environment is a basic ant colony simulation. There are by default 10 ants.
 
 **The Board**
+
 The environment is a basic grid world with each cell having 4 possible options:
 - 0: Boundary (can't enter these cells)
 - 1: Empty
@@ -15,6 +16,7 @@ The board is randomly generated after every reset, given the specific number of
 food pieces and hazards specified.
 
 **Actions**
+
 Each time step, ants are able to move one cell up, down, left, or right.
 Moving takes 1 energy.
 Actions:
@@ -24,6 +26,7 @@ Actions:
 - 3: move down
 
 **Observations**
+
 An observation for an ant is an array representing the contents of the cells
 directly around them in the order starting with directly above the agent, then
 moving clockwise around the agent for a total of 8 values.
